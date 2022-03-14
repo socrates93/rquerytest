@@ -15,5 +15,19 @@
       "name": "Flash",
       "alterEgo": "Barry Allen"
     }
+  ],
+  "friends": [
+    {
+      "id": 1,
+      "name": "Jose Canseco"
+    },
+    {
+      "id": 2,
+      "name": "Manuel Perez"
+    },
+    {
+      "id": 3,
+      "name": "Rigoberto Sanchez"
+    }
   ]
 }

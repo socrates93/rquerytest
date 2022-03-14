@@ -1,4 +1,4 @@
-import { Outlet, useNavigate } from 'react-router-dom';
+import { Link, Outlet, useNavigate } from 'react-router-dom';
 import { useSuperData } from '../hooks/useSuperData';
 import { Hero } from './superheroes.page';
 
@@ -30,15 +30,14 @@ export const RQSuperHeroesPage = () => {
       <button onClick={() => refetch()}>Fetch Heroes</button>
 
       {data.data?.map((hero: Hero) => (
-        <div
-          key={hero.id}
-          onClick={() => navigate(`/rq-super-heroes/${hero.id}`)}
-        >
-          {hero.name}
+        <div key={hero.id}>
+          <Link to={`/rq-super-heroes/${hero.id}`} >
+            {hero.name}
+          </Link>
         </div>
       ))}
 
-      <Outlet />
+      {/* <Outlet /> */}
     </>
   );
 };
