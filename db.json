@@ -29,5 +29,17 @@
       "id": 3,
       "name": "Rigoberto Sanchez"
     }
+  ],
+  "users": [
+    {
+      "id": "laparita@correo.com",
+      "channelId": "socratech"
+    }
+  ],
+  "channels": [
+    {
+      "id": "socratech",
+      "courses": ["React", "Typescript", "Angular", "Ionic", "React Native"]
+    }
   ]
 }

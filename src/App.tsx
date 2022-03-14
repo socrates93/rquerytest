@@ -14,6 +14,15 @@ function App() {
           <li>
             <Link to='rq-super-heroes'>RQ SuperHeroes</Link>
           </li>
+          <li>
+            <Link to='paralelq'>Paralel Queries</Link>
+          </li>
+          <li>
+            <Link to='dparalelq'>Dynamic Paralel Queries</Link>
+          </li>
+          <li>
+            <Link to='dquery'>Dependent Query</Link>
+          </li>
         </ul>
       </nav>
 
