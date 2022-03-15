@@ -23,6 +23,12 @@ function App() {
           <li>
             <Link to='dquery'>Dependent Query</Link>
           </li>
+          <li>
+            <Link to='paginated'>Paginated Query</Link>
+          </li>
+          <li>
+            <Link to='infinite'>Infinite Query</Link>
+          </li>
         </ul>
       </nav>
 

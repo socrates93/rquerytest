@@ -14,6 +14,8 @@ import { RQSuperDetails } from './pages/rqsuperdetails.page';
 import { ParalelQueriesPage } from './pages/paralelqueries.page';
 import { DynamicParalelQueriesPage } from './pages/dynamicparalelqueries.pages';
 import { DependentQueryPage } from './pages/dependentquery.page';
+import { PaginatedQueryPage } from './pages/paginatedquery.page';
+import { InfiniteQueryPage } from './pages/infinitequery.page';
 
 const queryClient = new QueryClient();
 
@@ -36,6 +38,8 @@ const content = (
             />
             <Route path='rq-super-heroes/:id' element={<RQSuperDetails />} />
             <Route path='rq-super-heroes' element={<RQSuperHeroesPage />} />
+            <Route path='paginated' element={<PaginatedQueryPage />} />
+            <Route path='infinite' element={<InfiniteQueryPage />} />
           </Route>
         </Routes>
       </BrowserRouter>

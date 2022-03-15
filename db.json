@@ -41,5 +41,39 @@
       "id": "socratech",
       "courses": ["React", "Typescript", "Angular", "Ionic", "React Native"]
     }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "label": "red"
+    },
+    {
+      "id": 2,
+      "label": "blue"
+    },
+    {
+      "id": 3,
+      "label": "white"
+    },
+    {
+      "id": 4,
+      "label": "green"
+    },
+    {
+      "id": 5,
+      "label": "yellow"
+    },
+    {
+      "id": 6,
+      "label": "black"
+    },
+    {
+      "id": 7,
+      "label": "orange"
+    },
+    {
+      "id": 8,
+      "label": "purple"
+    }
   ]
 }
